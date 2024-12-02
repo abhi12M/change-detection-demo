@@ -1,0 +1,7 @@
+<h3>Child Component</h3>
+<p>Child Rendered {{checkChange()}} times</p>
+<p>Data passed from parent: {{ childData }}</p>
+<p>Local Data: {{ localData }}</p>
+<p>Asynchronous Data from timeout: {{ asyncData?.timeOutData }}</p>
+<p>Asynchronous Data from api: {{ asyncData?.apiData }}</p>
+<button (click)="updateLocalData()">Update Local Data</button>

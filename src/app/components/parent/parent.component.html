@@ -1,0 +1,6 @@
+<h2>Parent Component</h2>
+<p>Name: {{ name }}</p>
+<p>Address: {{ address.city }}</p>
+<button (click)="updateParentData()">Update Parent Local</button>
+<button (click)="updateChildData()">Update Child</button>
+<app-child [childData]="childData"></app-child>
